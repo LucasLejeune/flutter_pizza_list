@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               pizza.isVegan()
                                   ? const Tooltip(
                                       message: 'Vegan',
-                                      child: Icon(Icons.api),
+                                      child: Icon(Icons.grass),
                                     )
                                   : const Tooltip(
                                       message: 'Non-vegan',
